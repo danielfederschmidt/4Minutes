@@ -1,0 +1,7 @@
+<footer>
+    <ul class="horizontal list">
+      {% for element in site.data.footer %}
+        <li><a href="{{ element.url }}"> {{ element.name }}</a></li>
+      {% endfor %}
+    </ul>
+</footer>

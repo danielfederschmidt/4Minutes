@@ -1,0 +1,23 @@
+title: 4Minutes.
+description: A Jekyll theme for blogging inspired by Web Design in 4 minutes.
+
+url: "http://localhost:4000"
+baseurl: ""
+
+permalink: pretty
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+highlighter: rouge
+markdown: kramdown
+
+gems:
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- .gitignore
+- .sass-cache

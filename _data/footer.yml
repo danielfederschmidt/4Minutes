@@ -1,0 +1,6 @@
+- name: Home
+  url: "/"
+- name: RSS
+  url: "/feed.xml"
+- name: Sitemap
+  url: "/sitemap.xml"
